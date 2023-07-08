@@ -53,8 +53,10 @@ public class HomePage_TS_001 extends BaseClass{
 		CommonMethods.getTitle(getDriver(), "Web Development - PSPTech");
 		CommonMethods.click(homepage.ClickHome, driver);
 	}
-	
-	
+	@Test
+	public void TC_003_Return_to_home_page() {
+		
+	}
 	@AfterTest
 	public void tearDown() {
 	logger.info("Testing for HomePage_TS_001 Completed");
