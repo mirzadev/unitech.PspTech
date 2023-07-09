@@ -12,21 +12,22 @@ public class BaseClass {
 	public static WebDriverWait wait;
 	public static WebElement WElement;
 	public static Logger logger;
- 	
-public BaseClass(WebDriver driver) {
-	BaseClass.driver = driver;
-}
-public static WebDriver getDriver() {
-	logger = Logger.getLogger("pspTechInfo");
+		
+	public BaseClass(WebDriver driver) {
+	BaseClass.driver= driver;
+		}
+	public static WebDriver getDriver() {
+		logger = Logger.getLogger("NandanParkInfo");
 	PropertyConfigurator.configure("log4j.properties");
+		 	if (driver==null) {
+		 		return driver;
+		 	}else {
+		 		return driver;
+		 	}
+	}
+	public void setDriver (WebDriver driver) {
+		BaseClass.driver = driver;
+	}
 	
-	if (driver == null) {
-		return driver;
-	}else {
-	return driver;	
-	}
-	}
-public void setDriver (WebDriver driver) {
-	BaseClass.driver = driver;
 }
-}
+

@@ -13,7 +13,8 @@ public class HomePage extends BaseClass{
 	public HomePage() {
 		super(driver);
 	}	
-	
+	@FindBy (xpath = "//a[@href='https://psptech.net/career/']")
+	public WebElement ClickCareerfromHome;	
 	
 @FindBy (xpath = "(//a[@href='https://psptech.net'])[1]")
 public WebElement ClickHome;
