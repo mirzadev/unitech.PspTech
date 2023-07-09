@@ -69,6 +69,14 @@ public class CommonMethods extends BaseClass{
 		System.out.println(actualTitle);
 		Assert.assertEquals(actualTitle, expectedTitle);
 		}
+	
+	public static void getUrl (WebDriver driver, String expectedUrl) {
+		String actualUrl = driver.getCurrentUrl();
+		System.out.println(actualUrl);
+		Assert.assertEquals(actualUrl, expectedUrl);
+	}
+	
+	
 	public static void maximizeBrowser() {
 		driver.manage().window().maximize();
 	}
