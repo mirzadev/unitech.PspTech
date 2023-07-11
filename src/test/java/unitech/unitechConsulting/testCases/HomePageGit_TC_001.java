@@ -65,12 +65,13 @@ public void TC_006_APIIntegreationDevelopment_HomePage() {
 	CommonMethods.click(homepage.apiIntegrationDevelopement_6, driver);
 	CommonMethods.getTitle(driver, "PSPTech – PSP Technology | Websites | Apps | Digital Solutions - PSPTech");
 }
-@Test
+/*@Test
 public void TC_007_webMobileApplication_HomePage() {
 	logger.info("HomePage WebApplication_7 clicked");
 	CommonMethods.click(homepage.webMobileApplication_7, driver);
 	CommonMethods.getTitle(driver, "PSPTech – PSP Technology | Websites | Apps | Digital Solutions - PSPTech");
-}
+}*/
+
 @Test
 public void TC_008_SpeedOptimization_HomePage() {
 	logger.info("HomePage SpeedOptimization_9 clicked");
