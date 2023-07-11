@@ -3,39 +3,12 @@
 <suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="unitech.unitechConsulting.testCases.Career_page_TC_001">
+      <class name="unitech.unitechConsulting.testCases.HomePageGit_TC_001">
         <methods>
-          <include name="TC_006_click_header_ContactUs_button"/>
-          <include name="TC_009_click_BurgerMenu_AboutUs_button"/>
-          <include name="TC_003_click_header_AboutUs_button"/>
-          <include name="TC_020_Word_Press__click"/>
-          <include name="TC_001_click_header_career_button"/>
-          <include name="TC_022_Quality_Assurance_Analyst_click"/>
-          <include name="TC_015_Logo_Psp_Tech_Career_click"/>
-          <include name="tearDown"/>
-          <include name="TC_017_full_stack_devreloper_reade_more_click"/>
-          <include name="TC_027_ContactUs_Footer_button_click"/>
-          <include name="TC_023_Scrum_Master_Read_more_click"/>
-          <include name="TC_002_click_header_Home_button"/>
-          <include name="TC_011_click_BurgerMenu_Career_button"/>
+          <include name="TC_007_webMobileApplication_HomePage"/>
           <include name="setup"/>
-          <include name="TC_024_Scrum_Master_click"/>
-          <include name="TC_013_software_development_dropdown_click"/>
-          <include name="TC_016_Middle_Home_Career_click"/>
-          <include name="TC_004_software_development_dropdown_click"/>
-          <include name="TC_029_Career_Footer_button_click"/>
-          <include name="TC_021_Quality_Assurance_Analyst_read_more_click"/>
-          <include name="TC_018_full_stack_devreloper_click"/>
-          <include name="TC_012_software_development_BargerMenu_Career_click"/>
-          <include name="TC_026_AboutUs_Footer_button_click"/>
-          <include name="TC_014_software_development_dropdown_click"/>
-          <include name="TC_010_click_BurgerMenu_ContactUs_button"/>
-          <include name="TC_025_ContactUs_Middle2_button_click"/>
-          <include name="TC_005_software_development_dropdown_click"/>
-          <include name="TC_019_Word_Press_read_more_click"/>
-          <include name="TC_028_Software_Development_Footer_button_click"/>
         </methods>
-      </class> <!-- unitech.unitechConsulting.testCases.Career_page_TC_001 -->
+      </class> <!-- unitech.unitechConsulting.testCases.HomePageGit_TC_001 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
