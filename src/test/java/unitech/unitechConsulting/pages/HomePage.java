@@ -13,125 +13,73 @@ public class HomePage extends BaseClass{
 	public HomePage() {
 		super(driver);
 	}	
-	@FindBy (xpath = "//a[@href='https://psptech.net/career/']")
-	public WebElement ClickCareerfromHome;	
-	
-@FindBy (xpath = "(//a[@href='https://psptech.net'])[1]")
-public WebElement ClickHome;
+	@FindBy (xpath ="(//a[@href='https://psptech.net' ])[1]")
+	public WebElement clickHomePage_1;
 
-@FindBy (xpath = "(//a[@href='https://psptech.net/software-development/'])[1]")
-public WebElement MouseOverSoftwareDevelopment;
+	@FindBy (xpath = "(//a[@href= 'https://psptech.net/software-development/'])[1]")
+	public WebElement clickDiscoverMore_1;
 
-@FindBy (xpath = "(//a[@href='https://psptech.net/software-development/web-development/'])[1]")
-public WebElement WebDevPageSelectionFromHomePage;
-	
-@FindBy (xpath= "(//a[@href='https://psptech.net/software-development/'])[6]")
-public WebElement ClickDiscoverMore1;
+	@FindBy (how = How.XPATH , using= ("(//a[@href= 'https://psptech.net/software-development/'])[5]"))
+	public WebElement clickDiscoverMore_5;
 
-@FindBy (how = How.XPATH, using = "(//a[@href='https://psptech.net/software-development/'])[8]")
-public WebElement DiscoverMore2Click;
+	@FindBy (xpath = "(//*[@class='antares-adv-icon-box'])[4]")
+	public WebElement appDevelopment_4;
 
-@FindBy (how = How.XPATH, using="((//*[@class='antares-adv-icon-box-title'])[4]")
-public WebElement AppDevelopmentHomeClick;
+	@FindBy (how = How.XPATH, using= ("(//*[@class='antares-adv-icon-box'])[5]"))
+	public WebElement websiteDevelopment_5;
 
-@FindBy (how = How.XPATH, using="(//*[@class='antares-adv-icon-box-title'])[5]")
-public WebElement WebsiteDevelopmentHomeClick;
+	@FindBy (how= How.XPATH, using= ("(//*[@class='antares-adv-icon-box'])[6]"))
+	public WebElement apiIntegrationDevelopement_6;
 
-@FindBy (how = How.XPATH, using ="(//*[@class='antares-adv-icon-box-title'])[6]")
-public WebElement ApiIntegrationDevHomeClick;
+	@FindBy (how= How.XPATH , using= ("//*[@id=\"primary\"]/div/section[3]/div[3]/div[2]/div/section[2]/div/div[2]/div/div/div/div/div[2]/h3"))
+	public WebElement webMobileApplication_7;
 
-@FindBy (how = How.XPATH, using = "(//*[@class='antares-adv-icon-box-content'])[7]")
-public WebElement WebMobAppHomeClick;
+	@FindBy (how= How.XPATH, using= ("(//*[@class='antares-adv-icon-box'])[9]"))
+	public WebElement SpeedOptimization_9;
 
-@FindBy (how = How.XPATH, using = "(//*[@class='antares-adv-icon-box-content'])[8]")
-public WebElement SeoOptimizationHomeClick;
+	@FindBy (xpath= "(//*[@class='antares-dual-button-wrapper'])")
+	public WebElement middleAboutUS;
 
-@FindBy (how = How.XPATH, using = "(//*[@class='antares-adv-icon-box-content'])[9]")
-public WebElement SpeedOptimizationHomeClick;
+	@FindBy (xpath= "(//*[@href='https://psptech.net/contact-us/'])[4]")
+	public WebElement footerContactUs_4;
 
-@FindBy (how = How.XPATH, using = "(//a[@href='https://psptech.net/about-us/'])[3]")
-public WebElement AboutUsHomeClick;
+	@FindBy (xpath= "(//*[@href='https://www.facebook.com/PSP-Technology-Inc-105793242237294'])[3")
+	public WebElement footerFacebookPage_3;
 
-@FindBy (how = How.XPATH, using = "(//a[@href='https://www.facebook.com/PSP-Technology-Inc-105793242237294'])[2]")
-public WebElement PspFacebookBrandingHomeClick;
+	@FindBy (xpath= "(//*[@href='https://twitter.com/PspTechnology'])[2]")
+	public WebElement footerTwitter_2;
 
-@FindBy (how = How.XPATH, using = "(//a[@href='https://psptech.net/contact-us/'])[3]")
-public WebElement SupportPspContactUsClick;
+	@FindBy (xpath= "(//*[@href='https://www.youtube.com/channel/UCQMlce8CbHN-j1clmT79zVQ'])[2]")
+	public WebElement footerYoutubePage_2;
 
-@FindBy (how = How.XPATH, using = "(//*[@class='antares-active-inactive-icon'])[1]")
-public WebElement FaqOneClick;
+	@FindBy (xpath= "(//*[@href='https://psptech.net/about-us/'])[4]")
+	public WebElement footerAboutUs_4;
 
-@FindBy (how = How.XPATH, using = "(//*[@class='antares-active-inactive-icon'])[2]")
-public WebElement FaqTwoClick;
+	@FindBy (xpath= "(//*[@href='https://psptech.net/career/'])[3]")
+	public WebElement footerCareer_3;
 
-@FindBy (how = How.XPATH, using = "(//*[@class='antares-active-inactive-icon'])[3]")
-public WebElement FaqThreeClick;
+	@FindBy (xpath= "(//*[@href='https://psptech.net/contact-us/'])[5]")
+	public WebElement footerContactUs_5;
 
-@FindBy (how = How.XPATH, using = "(//*[@class='antares-active-inactive-icon'])[4]")
-public WebElement FaqFourClick;
+	@FindBy (xpath= "(//*[@href='https://psptech.net/software-development/'])[9]")
+	public WebElement footerSoftwareDevelepment_9;
 
-@FindBy (how = How.XPATH, using = "(//*[@class='antares-active-inactive-icon'])[5]")
-public WebElement FaqFiveClick;
+	@FindBy (how = How.XPATH, using= ("(//a[@href='https://psptech.net/software-development/'])[2]"))
+	public WebElement clickDiscover_2;
 
-@FindBy (how = How.XPATH, using = "(//*[@class='antares-active-inactive-icon'])[6]")
-public WebElement FaqSixClick;
+	@FindBy (how= How.XPATH, using= ("(//a[@href='https://psptech.net/software-development/'])[3]"))
+	public WebElement clickDiscover_3;
 
-@FindBy (how = How.XPATH, using = "(//*[@class='antares-active-inactive-icon'])[7]")
-public WebElement FaqSevenClick;
+	@FindBy (xpath= "(//a[@href='https://psptech.net/software-development/'])[4]")
+	public WebElement clickDiscover_4;
 
-@FindBy (how = How.XPATH, using = "(//*[@class='antares-active-inactive-icon'])[8]")
-public WebElement FaqEightClick;
+	@FindBy (xpath= "(//a[@href='https://psptech.net/software-development/'])[6]")
+	public WebElement clickDiscover_6;
 
-@FindBy (how = How.XPATH, using = "(//*[@class='antares-active-inactive-icon'])[9]")
-public WebElement FaqNineClick;
+	@FindBy (xpath= "//a[@href='https://psptech.net/about-us/'][1]")
+	public WebElement aboutUs_1;
 
-@FindBy (how = How.XPATH, using = "//*[@class='elementor-button-text']")
-public WebElement ContactUSHomeFooterBigClick;
-
-@FindBy (how = How.XPATH, using="(//*[@class='elementor-icon-list-item elementor-inline-item'])[1]")
-public WebElement HomeFooterFacebookClick;
-@FindBy (how = How.XPATH, using="(//*[@class='elementor-icon-list-item elementor-inline-item'])[2]")
-public WebElement HomeFooterTwitterClick;
-@FindBy (how = How.XPATH, using="(//*[@class='elementor-icon-list-item elementor-inline-item'])[3]")
-public WebElement HomeFooterYoutubeClick;
-
-/*
-@FindBy (how = How.ID, using="email")
-public WebElement ContactEmailInsert;
-
-@FindBy(how = How.ID, using="message")
-public WebElement ContactMessageInsert;
-*/
-
-@FindBy(how= How.LINK_TEXT, using = "About Us")
-public WebElement HomeFooterCareerClick;
-
-@FindBy(how= How.LINK_TEXT, using = "Career")
-public WebElement HomeFooterContactUsClick;
-
-@FindBy(how= How.LINK_TEXT, using = "Contact Us")
-public WebElement HomeFooterAboutUsClick;
-
-@FindBy(how= How.LINK_TEXT, using = "Software Development")
-public WebElement HomeFooterSoftwareDevClick;
-
-@FindBy(how = How.XPATH, using = "(//*[@class='elementor-icon-list-text'])[8]")
-public WebElement HomeFooterAddressClick;
-
-@FindBy(how = How.XPATH, using = "(//*[@class='elementor-icon-list-text'])[9]")
-public WebElement HomeFooterPhoneClick;
-
-@FindBy(how = How.XPATH, using = "(//*[@class='elementor-icon-list-text'])[10]")
-public WebElement HomeFooterFaxClick;
-
-@FindBy(how = How.XPATH, using = "(//*[@class='elementor-icon-list-text'])[11]")
-public WebElement HomeFooterEmailClick;
-
-@FindBy (name = "your-email")
-public WebElement EnterFooterEmail;
-
-@FindBy (xpath = "//*[@class='elementor-button']")
-public WebElement FooterEmailSubmitClick;
-
+	@FindBy (xpath= "(//a[@href='https://psptech.net/about-us/'])[2]")
+	public WebElement aboutUs_2;
 
 }
