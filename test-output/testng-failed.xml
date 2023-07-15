@@ -5,7 +5,6 @@
     <classes>
       <class name="unitech.unitechConsulting.testCases.HomePage_TS_001">
         <methods>
-          <include name="tearDown"/>
           <include name="setup"/>
         </methods>
       </class> <!-- unitech.unitechConsulting.testCases.HomePage_TS_001 -->
