@@ -39,7 +39,6 @@ public class Career_page_TC_001 extends BaseClass {
 		
 	}
 	
-	
 	@Test
 	public void TC_002_click_header_Home_button() {
 		logger.info("clicking CareerHome button has started");
@@ -91,11 +90,6 @@ public class Career_page_TC_001 extends BaseClass {
 		CommonMethods.getUrl(driver, "https://psptech.net/career/");
 	}
 	
-//	@Test
-//	public void TC_007_click_meddle_Home_button() {
-//		logger.info(" clicking CareerHome1 button has started");
-//		CommonMethods.click(career.ClickHome1Career, driver);
-//		CommonMethods.getUrl(driver, "https://psptech.net/");
 
 @Test
 public void TC_009_click_BurgerMenu_AboutUs_button() {
@@ -130,9 +124,7 @@ public void TC_012_software_development_BargerMenu_Career_click() {
 	CommonMethods.click(career.ClickSoftwareDevelopmentBurgerMenuCareer, driver);
 	CommonMethods.getUrl(driver, "https://psptech.net/software-development/");
 	
-//	CommonMethods.click(career.ClickCareer, driver);
-//	CommonMethods.getUrl(driver, "https://psptech.net/career/");
-//	
+
 }
 	
 	@Test
@@ -326,6 +318,8 @@ public void TC_025_ContactUs_Middle2_button_click() {
 		CommonMethods.getUrl(driver, "https://psptech.net/career/");
 	}
 		
+
+
 @Test
 public void TC_029_Career_Footer_button_click() {
 	logger.info("  Career Footer button in Career Clickd");
@@ -333,18 +327,13 @@ public void TC_029_Career_Footer_button_click() {
 	CommonMethods.click(career.ClickCareeronCareerFooterbutton, driver);
 	CommonMethods.getUrl(driver, "https://psptech.net/career/");	
 }
-		
-			
-	@AfterTest
+	
+
+	@Test
 	public void tearDown() {
 		logger.info("Testing for Career_Page_TC_001 completed");
+		CommonMethods.closeBrowser();
 	}
-	
-	
-	
-	
-	
-	
-	
+
 
 }

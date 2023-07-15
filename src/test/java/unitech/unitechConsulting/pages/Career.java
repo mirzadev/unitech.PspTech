@@ -17,16 +17,12 @@ public class Career extends BaseClass{
 	@FindBy (xpath = "//a[@href='https://psptech.net/career/']")
 	public WebElement ClickCareer;
 
-	
 	@FindBy (xpath = "//a[@href='https://psptech.net']")
 	public WebElement ClickHomePageCareer;
-	
 	
 	@FindBy (xpath="/html/body/div[2]/div[2]/section/div[3]/div/div/div[2]/div/nav/ul/li[1]/a/span")
 	public WebElement ClickMiddelHomePageCareer;
 	
-	//driver.findElement(By.tagName("span")).click();
-	//a[@href='https://psptech.net/about-us/'][1]
 	@FindBy (xpath = "//a[@href='https://psptech.net/about-us/'][1]")
 	public WebElement ClickAboutUsCareer;
 	
@@ -54,7 +50,6 @@ public class Career extends BaseClass{
 	
 	@FindBy (xpath = "//a[@href='https://psptech.net/software-development/']")
 	public WebElement ClickSoftwareDevelopmentBurgerMenuCareer;
-
 
 	@FindBy (xpath = "//img[@decoding='async']")
 	public WebElement ClickLogoPspTechCareer;

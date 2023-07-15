@@ -1,57 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="10" passed="10" failed="0" skipped="0">
+<testng-results total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-15T15:15:11Z" name="Default suite" finished-at="2023-07-15T15:15:24Z" duration-ms="13371">
+  <suite started-at="2023-07-15T16:47:34Z" name="Default suite" finished-at="2023-07-15T16:47:47Z" duration-ms="12953">
     <groups>
     </groups>
-    <test started-at="2023-07-15T15:15:11Z" name="Default test" finished-at="2023-07-15T15:15:24Z" duration-ms="13371">
-      <class name="unitech.unitechConsulting.testCases.HomePageGit_TC_001">
-        <test-method is-config="true" signature="setup()[pri:0, instance:unitech.unitechConsulting.testCases.HomePageGit_TC_001@4722ef0c]" started-at="2023-07-15T11:15:11Z" name="setup" finished-at="2023-07-15T11:15:15Z" duration-ms="4099" status="PASS">
+    <test started-at="2023-07-15T16:47:34Z" name="Default test" finished-at="2023-07-15T16:47:47Z" duration-ms="12953">
+      <class name="unitech.unitechConsulting.testCases.HomePage_TS_001">
+        <test-method is-config="true" signature="setup()[pri:0, instance:unitech.unitechConsulting.testCases.HomePage_TS_001@6b695b06]" started-at="2023-07-15T12:47:34Z" name="setup" finished-at="2023-07-15T12:47:38Z" duration-ms="3764" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC_001_clickOnHomeButton_HomePage()[pri:0, instance:unitech.unitechConsulting.testCases.HomePageGit_TC_001@4722ef0c]" started-at="2023-07-15T11:15:15Z" name="TC_001_clickOnHomeButton_HomePage" finished-at="2023-07-15T11:15:16Z" duration-ms="585" status="PASS">
+        <test-method signature="TC_001_clickOnHomeButton_HomePage()[pri:0, instance:unitech.unitechConsulting.testCases.HomePage_TS_001@6b695b06]" started-at="2023-07-15T12:47:38Z" name="TC_001_clickOnHomeButton_HomePage" finished-at="2023-07-15T12:47:38Z" duration-ms="586" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_001_clickOnHomeButton_HomePage -->
-        <test-method signature="TC_002_discoverMore5_HomePage()[pri:0, instance:unitech.unitechConsulting.testCases.HomePageGit_TC_001@4722ef0c]" started-at="2023-07-15T11:15:16Z" name="TC_002_discoverMore5_HomePage" finished-at="2023-07-15T11:15:22Z" duration-ms="6511" status="PASS">
+        <test-method signature="TC_002_discoverMore5_HomePage()[pri:0, instance:unitech.unitechConsulting.testCases.HomePage_TS_001@6b695b06]" started-at="2023-07-15T12:47:38Z" name="TC_002_discoverMore5_HomePage" finished-at="2023-07-15T12:47:44Z" duration-ms="6038" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_002_discoverMore5_HomePage -->
-        <test-method signature="TC_003_discoverMore1_HomePage()[pri:0, instance:unitech.unitechConsulting.testCases.HomePageGit_TC_001@4722ef0c]" started-at="2023-07-15T11:15:22Z" name="TC_003_discoverMore1_HomePage" finished-at="2023-07-15T11:15:23Z" duration-ms="869" status="PASS">
+        <test-method signature="TC_003_discoverMore1_HomePage()[pri:0, instance:unitech.unitechConsulting.testCases.HomePage_TS_001@6b695b06]" started-at="2023-07-15T12:47:44Z" name="TC_003_discoverMore1_HomePage" finished-at="2023-07-15T12:47:45Z" duration-ms="776" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_003_discoverMore1_HomePage -->
-        <test-method signature="TC_004_appDevelopment_HomePage()[pri:0, instance:unitech.unitechConsulting.testCases.HomePageGit_TC_001@4722ef0c]" started-at="2023-07-15T11:15:23Z" name="TC_004_appDevelopment_HomePage" finished-at="2023-07-15T11:15:23Z" duration-ms="89" status="PASS">
+        <test-method signature="TC_004_appDevelopment_HomePage()[pri:0, instance:unitech.unitechConsulting.testCases.HomePage_TS_001@6b695b06]" started-at="2023-07-15T12:47:45Z" name="TC_004_appDevelopment_HomePage" finished-at="2023-07-15T12:47:45Z" duration-ms="111" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_004_appDevelopment_HomePage -->
-        <test-method signature="TC_005_websiteDevelopement_HomePage()[pri:0, instance:unitech.unitechConsulting.testCases.HomePageGit_TC_001@4722ef0c]" started-at="2023-07-15T11:15:23Z" name="TC_005_websiteDevelopement_HomePage" finished-at="2023-07-15T11:15:23Z" duration-ms="53" status="PASS">
+        <test-method signature="TC_005_websiteDevelopement_HomePage()[pri:0, instance:unitech.unitechConsulting.testCases.HomePage_TS_001@6b695b06]" started-at="2023-07-15T12:47:45Z" name="TC_005_websiteDevelopement_HomePage" finished-at="2023-07-15T12:47:45Z" duration-ms="91" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_005_websiteDevelopement_HomePage -->
-        <test-method signature="TC_006_APIIntegreationDevelopment_HomePage()[pri:0, instance:unitech.unitechConsulting.testCases.HomePageGit_TC_001@4722ef0c]" started-at="2023-07-15T11:15:23Z" name="TC_006_APIIntegreationDevelopment_HomePage" finished-at="2023-07-15T11:15:23Z" duration-ms="54" status="PASS">
+        <test-method signature="TC_006_APIIntegreationDevelopment_HomePage()[pri:0, instance:unitech.unitechConsulting.testCases.HomePage_TS_001@6b695b06]" started-at="2023-07-15T12:47:45Z" name="TC_006_APIIntegreationDevelopment_HomePage" finished-at="2023-07-15T12:47:45Z" duration-ms="83" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_006_APIIntegreationDevelopment_HomePage -->
-        <test-method signature="TC_007_webMobileApplication_HomePage()[pri:0, instance:unitech.unitechConsulting.testCases.HomePageGit_TC_001@4722ef0c]" started-at="2023-07-15T11:15:23Z" name="TC_007_webMobileApplication_HomePage" finished-at="2023-07-15T11:15:23Z" duration-ms="66" status="PASS">
+        <test-method signature="TC_007_webMobileApplication_HomePage()[pri:0, instance:unitech.unitechConsulting.testCases.HomePage_TS_001@6b695b06]" started-at="2023-07-15T12:47:45Z" name="TC_007_webMobileApplication_HomePage" finished-at="2023-07-15T12:47:45Z" duration-ms="80" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_007_webMobileApplication_HomePage -->
-        <test-method signature="TC_008_SpeedOptimization_HomePage()[pri:0, instance:unitech.unitechConsulting.testCases.HomePageGit_TC_001@4722ef0c]" started-at="2023-07-15T11:15:23Z" name="TC_008_SpeedOptimization_HomePage" finished-at="2023-07-15T11:15:24Z" duration-ms="69" status="PASS">
+        <test-method signature="TC_008_SpeedOptimization_HomePage()[pri:0, instance:unitech.unitechConsulting.testCases.HomePage_TS_001@6b695b06]" started-at="2023-07-15T12:47:45Z" name="TC_008_SpeedOptimization_HomePage" finished-at="2023-07-15T12:47:45Z" duration-ms="82" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_008_SpeedOptimization_HomePage -->
-        <test-method signature="TC_009_middleAboutUS_HomePage()[pri:0, instance:unitech.unitechConsulting.testCases.HomePageGit_TC_001@4722ef0c]" started-at="2023-07-15T11:15:24Z" name="TC_009_middleAboutUS_HomePage" finished-at="2023-07-15T11:15:24Z" duration-ms="68" status="PASS">
+        <test-method signature="TC_009_middleAboutUS_HomePage()[pri:0, instance:unitech.unitechConsulting.testCases.HomePage_TS_001@6b695b06]" started-at="2023-07-15T12:47:45Z" name="TC_009_middleAboutUS_HomePage" finished-at="2023-07-15T12:47:46Z" duration-ms="71" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_009_middleAboutUS_HomePage -->
-        <test-method signature="TC_010_footerContactUs_HomePage()[pri:0, instance:unitech.unitechConsulting.testCases.HomePageGit_TC_001@4722ef0c]" started-at="2023-07-15T11:15:24Z" name="TC_010_footerContactUs_HomePage" finished-at="2023-07-15T11:15:24Z" duration-ms="870" status="PASS">
+        <test-method signature="TC_010_footerContactUs_HomePage()[pri:0, instance:unitech.unitechConsulting.testCases.HomePage_TS_001@6b695b06]" started-at="2023-07-15T12:47:46Z" name="TC_010_footerContactUs_HomePage" finished-at="2023-07-15T12:47:47Z" duration-ms="1031" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_010_footerContactUs_HomePage -->
-      </class> <!-- unitech.unitechConsulting.testCases.HomePageGit_TC_001 -->
+        <test-method signature="tearDown()[pri:0, instance:unitech.unitechConsulting.testCases.HomePage_TS_001@6b695b06]" started-at="2023-07-15T12:47:47Z" name="tearDown" finished-at="2023-07-15T12:47:47Z" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- unitech.unitechConsulting.testCases.HomePage_TS_001 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

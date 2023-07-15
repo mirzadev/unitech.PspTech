@@ -35,7 +35,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/nandi/OneDrive/Documents/selenium-server-4.9.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/nandi/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar" sourcepath="C:/Users/nandi/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
