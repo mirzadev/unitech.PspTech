@@ -5,25 +5,9 @@
     <classes>
       <class name="unitech.unitechConsulting.testCases.HomePage_TS_001">
         <methods>
-          <include name="tearDown"/>
           <include name="setup"/>
         </methods>
       </class> <!-- unitech.unitechConsulting.testCases.HomePage_TS_001 -->
-      <class name="unitech.unitechConsulting.testCases.HomePageGit_TC_001">
-        <methods>
-          <include name="TC_002_discoverMore5_HomePage"/>
-          <include name="TC_003_discoverMore1_HomePage"/>
-          <include name="TC_007_webMobileApplication_HomePage"/>
-          <include name="TC_001_clickOnHomeButton_HomePage"/>
-          <include name="TC_004_appDevelopment_HomePage"/>
-          <include name="TC_005_websiteDevelopement_HomePage"/>
-          <include name="TC_006_APIIntegreationDevelopment_HomePage"/>
-          <include name="TC_010_footerContactUs_HomePage"/>
-          <include name="setup"/>
-          <include name="TC_008_SpeedOptimization_HomePage"/>
-          <include name="TC_009_middleAboutUS_HomePage"/>
-        </methods>
-      </class> <!-- unitech.unitechConsulting.testCases.HomePageGit_TC_001 -->
       <class name="unitech.unitechConsulting.testCases.Career_page_TC_001">
         <methods>
           <include name="TC_006_click_header_ContactUs_button"/>

@@ -100,9 +100,9 @@ public class HomePage_TS_001 extends BaseClass{
 		logger.info("Returned to HomePage");
 	}
 
-	@AfterTest
+	@Test
 	public void tearDown() {
 	logger.info("Testing for HomePage_TS_001 Completed");
-	
+	CommonMethods.closeBrowser();
 }
 }

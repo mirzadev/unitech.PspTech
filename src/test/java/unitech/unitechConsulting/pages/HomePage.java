@@ -1,6 +1,5 @@
 package unitech.unitechConsulting.pages;
 
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
@@ -31,7 +30,7 @@ public class HomePage extends BaseClass{
 	@FindBy (how= How.XPATH, using= ("(//*[@class='antares-adv-icon-box'])[6]"))
 	public WebElement apiIntegrationDevelopement_6;
 
-	@FindBy (how= How.XPATH , using= ("//*[@id=\"primary\"]/div/section[3]/div[3]/div[2]/div/section[2]/div/div[2]/div/div/div/div/div[2]/h3"))
+	@FindBy (how= How.XPATH , using= ("//*[@id=\"primary\"]/div/section[3]/div[3]/div[2]/div/section[2]/div/div[2]/div/div/div/div/div[2]/h3/span"))
 	public WebElement webMobileApplication_7;
 
 	@FindBy (how= How.XPATH, using= ("(//*[@class='antares-adv-icon-box'])[9]"))

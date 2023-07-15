@@ -325,19 +325,14 @@ public void TC_029_Career_Footer_button_click() {
 	logger.info("  Career Footer button in Career Clickd");
 	
 	CommonMethods.click(career.ClickCareeronCareerFooterbutton, driver);
-	CommonMethods.getUrl(driver, "https://psptech.net/career/");
-	
-	
+	CommonMethods.getUrl(driver, "https://psptech.net/career/");	
 }
 	
-	
-	
 
-	
-	
-	@AfterTest
+	@Test
 	public void tearDown() {
 		logger.info("Testing for Career_Page_TC_001 completed");
+		CommonMethods.closeBrowser();
 	}
 
 
