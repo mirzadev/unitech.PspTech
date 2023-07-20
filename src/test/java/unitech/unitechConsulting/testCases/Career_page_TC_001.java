@@ -322,6 +322,7 @@ public void TC_025_ContactUs_Middle2_button_click() {
 
 @Test
 public void TC_029_Career_Footer_button_click() {
+	System.out.println("inside TC_029_Career_Footer_button_click");
 	logger.info("  Career Footer button in Career Clickd");
 	
 	CommonMethods.click(career.ClickCareeronCareerFooterbutton, driver);
